@@ -1,0 +1,42 @@
+Expense Tracker
+
+Overview
+The **Expense Tracker** is a simple C program designed to help users monitor and categorize their daily and monthly spending. It provides a clear financial overview by tracking expenses across various categories such as groceries, transportation, entertainment, and bills. The tool also generates monthly spending reports, helping users stay within budget and make informed financial decisions.
+
+Features
+- Add, delete, and view expense entries.
+- Categorize expenses for better tracking.
+- Generate monthly reports with total spending and highest expense category.
+- Simple command-line interface for ease of use.
+
+Technologies Used
+- Programming Language:C
+- Libraries:
+  - `<stdlib.h>` for memory allocation and process control
+  - Functions used:
+    - `malloc()`, `realloc()`, `free()` for dynamic memory management
+
+Installation & Usage
+1. Clone the Repository
+   ```sh
+   git clone https://github.com/yourusername/Expense-Tracker.git
+   cd Expense-Tracker
+   ```
+2. Compile the Code
+   ```sh
+   gcc main.c -o expense_tracker
+   ```
+3. Run the Program
+   ```sh
+   ./expense_tracker
+   ```
+ Future Enhancements
+- Implement file storage for persistent expense tracking.
+- Add a graphical user interface (GUI) for better usability.
+- Support for exporting reports in CSV or PDF formats.
+
+
+ License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
